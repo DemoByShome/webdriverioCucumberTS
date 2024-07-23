@@ -1,0 +1,31 @@
+{
+  "name": "webdriveriocucumberts",
+  "version": "1.0.0",
+  "description": "test script for wdio practice",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "wdio_test": "wdio run ./wdio.conf.ts"
+  },
+  "keywords": [
+    "webdriverio",
+    "typescript",
+    "cucumber",
+    "nodejs"
+  ],
+  "author": "sarodwat.shome@infosys.com",
+  "license": "ISC",
+  "dependencies": {
+    "@wdio/cli": "^8.39.1"
+  },
+  "devDependencies": {
+    "@wdio/allure-reporter": "^8.39.0",
+    "@wdio/cucumber-framework": "^8.39.0",
+    "@wdio/local-runner": "^8.39.1",
+    "@wdio/spec-reporter": "^8.39.0",
+    "chromedriver": "^126.0.4",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.5.3",
+    "wdio-chromedriver-service": "^8.1.1"
+  }
+}
